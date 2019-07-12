@@ -9,6 +9,10 @@ a {
   text-decoration: none;
 }
 
+strong {
+  font-weight: 400;
+}
+
 .blind {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
@@ -77,4 +81,21 @@ img {
 
 .ios_13 p {
   color: #fff;
+}
+
+footer {
+  padding-bottom: 29px;
+}
+
+footer p {
+  margin-bottom: 29px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #888;
+}
+
+footer strong {
+  font-size: 12px;
+  line-height: 15px;
+  color: #888;
 }
