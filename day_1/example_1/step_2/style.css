@@ -1,0 +1,116 @@
+body, html, h1, h2, h3, ul, ol, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  vertical-align: top;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  background-color: #ececec;
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.area_title {
+  padding-bottom: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.area_title .description {
+  margin-top: 20px;
+  font-size: 15px;
+  font-style: italic;
+  color: #888;
+}
+
+.area_ingredient {
+  margin-top: 14px;
+  padding: 20px 15px;
+  background-color: #fff;
+}
+
+.area_ingredient .item {
+  margin: 0 6px;
+  padding: 5px 4px;
+  border-bottom: 1px solid #ececec;
+  font-size: 14px;
+}
+
+.area_steps {
+  margin-top: 14px;
+  padding: 20px 15px;
+  background-color: #fff;
+}
+
+.area_steps .item .desc {
+  margin-bottom: 5px;
+}
+
+.area_steps .item {
+  padding: 12px 0 25px;
+}
+
+.area_author {
+  margin-top: 14px;
+  padding: 20px 15px;
+  background-color: #fff;
+}
+
+.area_recommend {
+  margin-top: 14px;
+  padding: 20px 15px;
+  background-color: #fff;
+}
+
+.area_recommend .item {
+  margin-top: 20px;
+}
+
+.area_recommend img {
+  width: 50%;
+}
+
+.area_author {
+  
+}
+
+.area_author .thumb {
+  width: 56px;
+  height: 56px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.area_author .username {
+  font-size: 18px;
+  color: #333;
+}
+
+.area_author .email {
+  margin-top: 4px;
+  font-size: 18px;
+  color: #333;
+}
+
+.area_recommend {
+
+}
