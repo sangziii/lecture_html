@@ -1,0 +1,114 @@
+/* css reset */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+em {
+  font-style: normal;
+}
+
+/* 작업 코드 시작 */
+.wrap {
+  width: 780px;
+  margin: 50px auto 0;
+}
+
+.title_doc {
+  display: inline-block;
+  border-bottom: 2px solid #7d7d7d;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #333;
+}
+
+.list_card {
+  font-size: 0;
+  margin-left: -20px;
+}
+
+.list_card .item {
+  display: inline-block;
+  overflow: hidden;
+  width: 140px;
+  margin: 40px 0 0 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px 0 rgba(160, 160, 160, 0.5);
+  vertical-align: top;
+}
+
+.list_card .color_area {
+  height: 110px;
+}
+
+.list_card .item.pale_dogwood .color_area {
+  background-image: linear-gradient(128deg, #fcdf8a, #f38381);
+}
+
+.list_card .item.flame .color_area {
+  background-image: linear-gradient(128deg, #f2d50f, #eb6e91);
+}
+
+.list_card .item.ultra_violet .color_area {
+  background-image: linear-gradient(128deg, #ce9ffc, #7367f0);
+}
+
+.list_card .item.island_paradise .color_area {
+  background-image: linear-gradient(128deg, #13f1fc, #0470dc);
+}
+
+.list_card .item.greenery .color_area {
+  background-image: linear-gradient(128deg, #c3ec52, #0ba29d);
+}
+
+.list_card .item.pink_yarrow .color_area {
+  background-image: linear-gradient(128deg, #f5515f, #a1051d);
+}
+
+.list_card .item.ultra_grey .color_area {
+  background-image: linear-gradient(128deg, #e3e3e3, #5d6874);
+}
+
+.list_card .item.lapis_blue .color_area {
+  background-image: linear-gradient(128deg, #65799b, #7367f0);
+}
+
+.list_card .item.kale .color_area {
+  background-image: linear-gradient(128deg, #184e68, #57ca85);
+}
+
+.list_card .item.aqua_sky .color_area {
+  background-image: linear-gradient(128deg, #0ff0b3, #036ed9);
+}
+
+.list_card .info_area {
+  padding: 9px 10px 16px;
+  background-color: #fff;
+}
+
+.list_card .info_area .title {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #333;
+}
+
+.list_card .info_area .hexcode{
+  display: block;
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 14px;
+  color: #646464;
+}
+
