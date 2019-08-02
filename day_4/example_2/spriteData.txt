@@ -1,0 +1,47 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-icon_like {
+    width: 28px;
+    height: 26px;
+    background-position: -10px -10px;
+}
+
+.sprite-icon_menu {
+    width: 36px;
+    height: 32px;
+    background-position: -58px -10px;
+}
+
+.sprite-icon_more {
+    width: 20px;
+    height: 34px;
+    background-position: -114px -10px;
+}
+
+.sprite-icon_play {
+    width: 22px;
+    height: 26px;
+    background-position: -154px -10px;
+}
+
+.sprite-icon_search {
+    width: 36px;
+    height: 36px;
+    background-position: -154px -56px;
+}
+
+.sprite-logo_naver_tv {
+    width: 186px;
+    height: 28px;
+    background-position: -10px -112px;
+}
+
+.sprite-thumb_user {
+    width: 54px;
+    height: 54px;
+    background-position: -210px -10px;
+}
