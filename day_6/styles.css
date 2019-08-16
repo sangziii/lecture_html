@@ -1,0 +1,241 @@
+/* css reset */
+html, body, ul, p, h1, h2 { 
+  margin: 0;
+  padding: 0;
+}
+
+em {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* code */
+body {
+  background-color: #353535;
+  font-family: 'Roboto', Arial, Verdana, sans-serif;
+}
+
+.wrap {
+  width: 280px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 27px;
+  box-shadow: -11px 11px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.header {
+  position: relative;
+  box-sizing: border-box;
+  height: 252px;
+  padding-top: 21px;
+  background-image: linear-gradient(132deg, rgba(250, 120, 46, 0.9), rgba(200, 41, 48, 0.83));
+}
+
+.logo_nike {
+  width: 55px;
+  height: 19.5px;
+  margin-left: 19px;
+  font-size: 0;
+}
+
+.logo_nike .link {
+  display: block;
+  height: 100%;
+  background-image: url(./img/logo_nike.png);
+  background-size: cover;
+}
+
+.header {
+  height: 252px;
+  border-top-left-radius: 27px;
+  border-top-right-radius: 27px;
+}
+
+.header .title {
+  margin-top: 23.5px;
+  padding: 0 21px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.header .desc {
+  margin-top: 10px;
+  padding: 0 21px;
+  font-size: 11px;
+  color: #fff;
+}
+
+.header .serial {
+  margin-top: -13px;
+  margin-left: -6px;
+  font-size: 115px;
+  font-weight: 900;
+  opacity: 0.1;
+}
+
+.header .img_shoose {
+  position: absolute;
+  top: -16px;
+  left: 44px;
+  width: 311px;
+  height: 296px;
+  background-image: url(./img/img_shoose.png);
+  background-size: cover;
+}
+
+.content {
+  position: relative;
+  box-sizing: border-box;
+  height: 255px;
+  padding: 20px 16px 0;
+}
+
+.content .title_area {
+  font-size: 0;
+}
+
+.content .title_area .title {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.content .title_area .sub_title {
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.content .title_area .label_new {
+  display: inline-block;
+  margin: 2px 0 0 8px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background-color: #11e95b;
+  font-size: 10px;
+  color: #fff;
+  vertical-align: top;
+}
+
+.content .desc_area {
+  margin-top: 5px;
+}
+
+.content .area_title {
+  font-size: 12px;
+}
+
+.content .rank_area {
+  overflow: hidden;
+  position: relative;
+  width: 68px;
+  height: 11px;
+  margin-top: 5px;
+  background-image: url(./img/icon_stars.png);
+  background-size: cover;
+}
+
+.content .rank_area .star {
+  float: left;
+  width: 12px;
+  height: 11px;
+  margin-left: 2px;
+  background-size: cover;
+  background-image: url(./img/icon_star_active.png);
+}
+
+.content .rank_area .star:first-child {
+  margin-left: 0;
+}
+
+.content .size_area {
+  margin-top: 26px;
+}
+
+.content .list_size {
+  overflow: hidden;
+
+}
+
+.content .list_size .item {
+  float: left;
+  width: 24px;
+  height: 24px;
+  margin-left: 18px;
+  border-radius: 50%;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.content .list_size .link {
+  display: block;
+}
+
+.content .list_size .item:first-child {
+  margin-left: -5px;
+}
+
+.content .list_size .item.active {
+  background-color: #f35e3d;
+}
+
+.content .list_size .item.active .link {
+  color: #fff;
+}
+
+.content .color_area {
+  margin-top: 29px;
+}
+
+.content .list_color {
+  overflow: hidden;
+  padding-top: 14px;
+}
+
+.content .list_color .item {
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+.content .list_color .item:first-child {
+  margin-left: 0;
+}
+
+.content .list_color .item.type_red {
+  background-color: #f35e3d;
+  border-color: #f35e3d;
+}
+
+.content .list_color .item.type_green {
+  background-color: #11e95b;
+  border-color: #11e95b;
+}
+
+.content .list_color .item.type_yellow {
+  background-color: #ffd414;
+  border-color: #ffd414;
+}
+
+.label_price {
+  position: absolute;
+  right: -20px;
+  bottom: 25px;
+  width: 126px;
+  padding: 7px 17px;
+  border-radius: 7px;
+  box-shadow: -10px 20px 15px -10px rgba(0, 0, 0, 0.3);
+  background-color: #11e95b;
+  color: #fff;
+}
