@@ -1,0 +1,361 @@
+/* css reset */
+html, body, h1, h2, ul, p { 
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+em {
+  font-style: normal;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* code */
+body {
+  background-color: #eee;
+}
+.wrap {
+  width: 375px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.header {
+  overflow: hidden;
+  padding: 15px 21px 14px;
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+.header .logo_naver_tv {
+  display: inline-block;
+  width: 93px;
+  height: 14px;
+  margin-top: 3px;
+  vertical-align: top;
+}
+
+.header .logo_naver_tv .link {
+  display: block;
+  height: 100%;
+  background-image: url(./img/logo_naver_tv.png);
+  background-size: cover;
+  font-size: 0;
+}
+
+.header .btn_menu {
+  float: left;
+  width: 18px;
+  height: 18px;
+  background-image: url(./img/icon_menu.png);
+  background-size: cover;
+}
+
+.header .btn_search {
+  float: right;
+  width: 18px;
+  height: 18px;
+  background-image: url(./img/icon_search.png);
+  background-size: cover;
+}
+
+.list_nav {
+  overflow: hidden;
+}
+
+.list_nav .item {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.list_nav .item .link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.list_nav .item.active .link {
+  font-weight: 600;
+  color: #00cb71;
+}
+
+.section_banner {
+  
+}
+
+.section_banner .area_thumb {
+  position: relative;
+  height: 214px;
+  background-image: url('./img/banner_1.jpg');
+  background-size: cover;
+}
+
+.section_banner .area_thumb .mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.3);
+}
+
+.section_banner .area_thumb .info {
+  position: relative;
+  padding: 123px 12px 0;
+
+}
+
+.section_banner .area_thumb .channel {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 24px;
+}
+
+.section_banner .area_thumb .channel .logo {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 3px;
+  background-image: url('./img/thumb_user.png');
+  background-size: cover;
+  vertical-align: top;
+}
+
+.section_banner .area_thumb .title {
+  margin-top: 5px;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #fff;
+}
+
+.section_banner .area_thumb .status {
+  margin-top: 3px;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 0.8px;
+  color: #fff;
+}
+
+.section_banner .area_thumb .play .icon {
+  display: inline-block;
+  width: 11px;
+  height: 12px;
+  margin-top: 1px;
+  background-image: url(./img/icon_play_thumb.png);
+  background-size: cover;
+  vertical-align: top;
+}
+
+.section_banner .area_thumb .like {
+  margin-left: 10px;
+}
+
+
+.section_banner .area_thumb .like .icon {
+  display: inline-block;
+  width: 17px;
+  height: 11px;
+  margin-top: 2px;
+  background-image: url(./img/icon_like_thumb.png);
+  background-size: cover;
+  vertical-align: top;
+}
+
+.section_banner .area_thumb .bar {
+  display: inline-block;
+  width: 1px;
+  height: 9px;
+  margin-top: 3px;
+  background-color: rgba(255, 255, 255, 0.75);
+  vertical-align: top;
+}
+
+.section_banner .list_paginator {
+  padding: 11px 0;
+  text-align: center;
+  font-size: 0;
+}
+
+.section_banner .list_paginator .item {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.section_banner .list_paginator .link {
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #d8d8d8;
+  border-radius: 50%;
+  margin-left: 6px;
+}
+
+.section_banner .list_paginator .item:first-child .link {
+  margin-left: 0;
+}
+
+.section_banner .list_paginator .item.active .link {
+  background-color: #00cb71;
+}
+
+.section_rank {
+  margin-top: 29px;
+  padding-bottom: 40px;
+}
+
+.section_rank .section_title {
+  position: relative;
+  padding: 0 18px;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.section_rank .section_title .status {
+  display: inline-block;
+  margin: 4px 0 0 4px;
+  vertical-align: top;
+  font-size: 14px;
+  color: #8f8f8f;
+  letter-spacing: -0.2px;
+}
+
+.section_rank .section_title .btn_more {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  width: 10px;
+  height: 17px;
+  background-image: url(./img/icon_more.png);
+  background-size: cover;
+  font-size: 0;
+}
+
+.section_rank .list_rank {
+  padding: 0 18px;
+}
+
+.section_rank .list_rank .item {
+  padding: 15px 0 13px;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.section_rank .list_rank .item:first-child {
+  padding-top: 0;
+}
+
+.section_rank .list_rank .item .link {
+  display: block;
+  overflow: hidden;
+}
+
+.section_rank .list_rank .num {
+  position: relative;
+  float: left;
+  padding-left: 4px;
+  padding-right: 14px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 82px;
+  color: #242424;
+  text-align: center;
+}
+
+.section_rank .list_rank .num .bar {
+  position: absolute;
+  width: 12px;
+  height: 2px;
+  background-color: #d5d9df;
+  bottom: 26px;
+  left: 1px;
+}
+
+.section_rank .list_rank .thumb {
+  float: left;
+  width: 144px;
+  height: 82px;
+  background-size: cover;
+}
+
+.section_rank .list_rank .thumb img {
+  width: 100%;
+  height: auto;
+}
+
+.section_rank .list_rank .info {
+  overflow: hidden;
+  padding: 2px 0 0 15px;
+}
+
+.section_rank .list_rank .title {
+  overflow: hidden;
+  height: 40px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.25px;
+  color: #242424;
+}
+
+.section_rank .list_rank .channel {
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: -0.4px;
+  color: #4e88cf;
+}
+
+.section_rank .list_rank .status {
+  overflow: hidden;
+  margin-top: 3px;
+}
+
+.section_rank .status .like {
+  margin-left: 10px;
+}
+
+.section_rank .status .view,
+.section_rank .status .like {
+  float: left;
+  font-size: 0;
+}
+
+.section_rank .status .txt,
+.section_rank .status .txt {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.6px;
+  color: #8f8f8f;
+  vertical-align: top;
+}
+
+.section_rank .status .view .icon {
+  display: inline-block;
+  width: 11px;
+  height: 12px;
+  margin: 1px 6px 0 0;
+  vertical-align: top;
+  background-image: url(./img/icon_play.png);
+  background-size: cover;
+}
+
+
+
+.section_rank .status .like .icon {
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+  margin: 1px 6px 0 0;
+  vertical-align: top;
+  background-image: url(./img/icon_like.png);
+  background-size: cover;
+}
