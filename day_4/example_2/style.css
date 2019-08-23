@@ -28,30 +28,40 @@ body {
 }
 
 .header {
-  overflow: hidden;
-  padding: 15px 21px 14px;
+  position: relative;
   border-bottom: 1px solid rgba(0,0,0,0.12);
   text-align: center;
 }
 
 .header .logo_naver_tv {
   display: inline-block;
-  width: 93px;
-  height: 14px;
-  margin-top: 3px;
   vertical-align: top;
 }
 
 .header .logo_naver_tv .link {
   display: block;
-  height: 100%;
-  background-image: url(./img/logo_naver_tv.png);
-  background-size: cover;
+  padding: 18px 10px 15px;
   font-size: 0;
 }
 
+.header .logo_naver_tv .icon {
+  display: block;
+  width: 93px;
+  height: 14px;
+  background-image: url(./img/logo_naver_tv.png);
+  background-size: cover;
+}
+
 .header .btn_menu {
-  float: left;
+  position: absolute;
+  top: 5px;
+  left: 11px;
+  padding: 10px;
+  font-size: 0;
+}
+
+.header .btn_menu .icon {
+  display: block;
   width: 18px;
   height: 18px;
   background-image: url(./img/icon_menu.png);
@@ -59,7 +69,15 @@ body {
 }
 
 .header .btn_search {
-  float: right;
+  position: absolute;
+  top: 5px;
+  right: 11px;
+  padding: 10px;
+  font-size: 0;
+}
+
+.header .btn_search .icon {
+  display: block;
   width: 18px;
   height: 18px;
   background-image: url(./img/icon_search.png);
@@ -77,6 +95,7 @@ body {
 }
 
 .list_nav .item .link {
+  display: block;
   font-size: 16px;
   font-weight: 500;
   line-height: 44px;
@@ -114,10 +133,7 @@ body {
 }
 
 .section_banner .area_thumb .channel {
-  font-size: 15px;
-  font-weight: 500;
-  color: #fff;
-  line-height: 24px;
+  font-size: 0;
 }
 
 .section_banner .area_thumb .channel .logo {
@@ -128,6 +144,13 @@ body {
   background-image: url('./img/thumb_user.png');
   background-size: cover;
   vertical-align: top;
+}
+
+.section_banner .area_thumb .channel .txt {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 24px;
 }
 
 .section_banner .area_thumb .title {
@@ -150,9 +173,15 @@ body {
   display: inline-block;
   width: 11px;
   height: 12px;
-  margin-top: 1px;
+  /* margin-top: 1px; */
   background-image: url(./img/icon_play_thumb.png);
   background-size: cover;
+  vertical-align: top;
+}
+
+.section_banner .area_thumb .status .num {
+  display: inline-block;
+  margin-top: 1px;
   vertical-align: top;
 }
 
@@ -165,7 +194,6 @@ body {
   display: inline-block;
   width: 17px;
   height: 11px;
-  margin-top: 2px;
   background-image: url(./img/icon_like_thumb.png);
   background-size: cover;
   vertical-align: top;
@@ -175,7 +203,7 @@ body {
   display: inline-block;
   width: 1px;
   height: 9px;
-  margin-top: 3px;
+  margin-top: 1px;
   background-color: rgba(255, 255, 255, 0.75);
   vertical-align: top;
 }
@@ -188,6 +216,7 @@ body {
 
 .section_banner .list_paginator .item {
   display: inline-block;
+  margin-left: 6px;
   vertical-align: top;
 }
 
@@ -197,10 +226,9 @@ body {
   height: 6px;
   background-color: #d8d8d8;
   border-radius: 50%;
-  margin-left: 6px;
 }
 
-.section_banner .list_paginator .item:first-child .link {
+.section_banner .list_paginator .item:first-child {
   margin-left: 0;
 }
 
@@ -283,7 +311,6 @@ body {
   float: left;
   width: 144px;
   height: 82px;
-  background-size: cover;
 }
 
 .section_rank .list_rank .thumb img {
