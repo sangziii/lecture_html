@@ -1,0 +1,42 @@
+
+
+.wrap {
+  position: relative;
+  min-height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* 헤더의 최종 높이값 입력 */
+  height: 50px;
+  background-color: #ccc;
+}
+
+.content {
+  box-sizing: border-box;
+  /* 헤더 높이만큼 입력 */
+  padding-top: 50px;
+  /* 푸터 높이만큼 입력 */
+  padding-bottom: 50px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* 푸터의 최종 높이값 입력 */
+  height: 50px;
+  background-color: #ccc;
+}
+
+/* your code */
+.wrap {
+
+}
