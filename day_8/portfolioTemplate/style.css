@@ -3,6 +3,7 @@
 .wrap {
   position: relative;
   min-height: 100%;
+  /* 원하는 최소 해상도 넓이 지정 */
   max-width: 1200px;
   margin: 0 auto;
   background-color: #fff;
